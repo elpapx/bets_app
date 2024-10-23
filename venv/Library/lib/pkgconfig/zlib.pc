@@ -1,0 +1,13 @@
+prefix=E:/papx/end_to_end_ml/ml_bets_beta/ml_bets_beta/venv/Library
+exec_prefix=E:/papx/end_to_end_ml/ml_bets_beta/ml_bets_beta/venv/Library
+libdir=E:/papx/end_to_end_ml/ml_bets_beta/ml_bets_beta/venv/Library/lib
+sharedlibdir=E:/papx/end_to_end_ml/ml_bets_beta/ml_bets_beta/venv/Library/lib
+includedir=E:/papx/end_to_end_ml/ml_bets_beta/ml_bets_beta/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
